@@ -7,7 +7,7 @@ public class GrassPokemon extends Pokemon {
         super(name, level, hp, type);
     }
 
-    public void specialAttack() {
+    public void specialAttack(Pokemon opponent) {
         setSpecial("Leafstorm");
         setAttack(30);
     }

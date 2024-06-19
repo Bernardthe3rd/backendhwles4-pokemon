@@ -14,6 +14,10 @@ public abstract class Pokemon {
 
     public abstract void speaks();
 
+    public abstract void specialAttack(Pokemon opponent);
+
+    public abstract void dodgeAttack();
+
     public void eats() {
         System.out.println(this.name + " likes to eat chocolate");
     }

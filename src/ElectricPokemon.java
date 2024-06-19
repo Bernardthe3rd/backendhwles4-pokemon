@@ -7,7 +7,7 @@ public class ElectricPokemon extends Pokemon {
         super(name, level, hp, type);
     }
 
-    public void specialAttack() {
+    public void specialAttack(Pokemon opponent) {
         setSpecial("ThunderBolt");
         setAttack(40);
     }
